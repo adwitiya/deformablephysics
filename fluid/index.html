@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Deformable Objects Simulation</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script data-main="js/main" src="js/lib/require.js"></script>
+</head>
+<body>
+    <div class="screen">
+        <canvas id="webGLCanvas" width="400" height="600"></canvas>
+    </div>
+    <div class="controls">
+        <span>Background colour</span><br>
+        <input id="bg-color" class="jscolor" value="ffffff">
+        <br><br>
+        <span>Foreground colour</span>
+        <br>
+        <input id="fg-color" class="jscolor" value="000000">
+        <br><br>
+        <span>Cursor size</span>
+        <br>
+        <span id="size-val"></span>
+        <input type="range" id="size" min="1" max="15" >
+        <br><br>
+        <span>Jacobi iterations</span>
+        <br>
+        <span id="iterations-val"></span>
+        <input type="range" id="iterations" min="4" max="32" >
+        <p>
+            <a href="https://github.com/adwitiya">GitHub</a>
+        </p>
+	<h1>Trinity College Dublin CS7GV6 Demo</h1>
+	<h2>Adwitiya Chakraborty</h2>
+    </div>
+</body>
+</html>
